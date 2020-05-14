@@ -64,7 +64,7 @@ footer{
     	text-align: center;
 	clear: both;
 	text-shadow: 1px 1px 1px #111111;
-	<!--Para o footer ficar sempre no fim da página -->
+	/*Para o footer ficar sempre no fim da página*/
 	bottom: 0;
 	left:0;
 	position: fixed;
