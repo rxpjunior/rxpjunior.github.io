@@ -38,8 +38,8 @@ header{
 
 /*Estilo da div da esquerda*/
 #div_esq{
-	background-color: #6959CD;
-	min-height: 455px;
+	background-color: black;
+	height: 100%;
 	width: 60%;
 	float: left;
 	text-shadow: 1px 1px 1px #111111;
@@ -48,8 +48,8 @@ header{
 
 /*Estilo da div da direita*/
 #div_dir{
-	background-color:#4682B4;
-	min-height: 455px;
+	background-color:black;
+	height: 100%;
 	width: 40%;
 	float: right;
 	font-size: 15px;
@@ -60,10 +60,14 @@ header{
 footer{
 	background-color:#483D8B;
 	height: 50px;
-    font-size: 20px;
-    text-align: center;
+    	font-size: 20px;
+    	text-align: center;
 	clear: both;
 	text-shadow: 1px 1px 1px #111111;
+	bottom: 0;
+	left:0;
+	position: fixed;
+	width: 100%
 }
 
 .container{
